@@ -34,7 +34,7 @@ alunos = inicializar_alunos()
 
 while True:
     nome = input("Digite o nome do aluno para coloca-lo a lista, e quando terminar digite 'fim': ")
-    if nome.lower() == "fim"or"Fim":
+    if nome.lower() == "fim":
         break
     alunos.append(nome)
 
